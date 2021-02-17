@@ -45,7 +45,7 @@ function LoginForm(props) {
             }}
           >
             <h5>
-              Available usernames: mohmedishak or elonmusk or emmaroberts or
+              Available usernames: mohmedishak (recommended) or elonmusk or emmaroberts or
               oprahwinfrey or misterrecruiter
             </h5>
             <h5>Password for all accounts: password0</h5>
