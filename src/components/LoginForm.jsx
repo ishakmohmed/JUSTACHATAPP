@@ -23,7 +23,7 @@ function LoginForm(props) {
       localStorage.setItem("username", username);
       localStorage.setItem("password", password);
 
-      window.location.reload(); // reloading here cause after setting ^ these items in localStorage, then the second time that the page reloads, we can render something differently.
+      window.location.reload(); 
     } catch (error) {
       setError("Wrong id/password. Try again.");
     }
