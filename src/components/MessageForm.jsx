@@ -12,8 +12,7 @@ function MessageForm(props) {
 
     const text = value.trim();
 
-    if (text.length > 0) sendMessage(creds, chatId, { text }); // sendMessage() is a function that is coming from the react-chat-engine AND YOU HAVE TO PASS 3 PROPS ACCORDING TO THE DOCUMENTATION!
-
+    if (text.length > 0) sendMessage(creds, chatId, { text }); 
     setValue("");
   };
 
