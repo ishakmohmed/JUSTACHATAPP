@@ -19,12 +19,12 @@ function ChatFeed(props) {
             backgroundImage: `url(${person?.person?.avatar})`,
           }}
         />
-      ); // means this person has read the message
+      );
     });
   };
 
   const renderMessages = () => {
-    const keys = Object.keys(messages); // keys here are IDs of specific messages
+    const keys = Object.keys(messages);
 
     return keys.map((key, index) => {
       const message = messages[key];
@@ -69,7 +69,6 @@ function ChatFeed(props) {
       </div>
       {renderMessages()}
       <div style={{ height: "100px" }} />
-      {/* ^ just to give some space */}
 
       <div className="message-form-container">
         <MessageForm {...props} chatId={activeChat} />
