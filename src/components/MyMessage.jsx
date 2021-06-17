@@ -1,7 +1,6 @@
 import React from "react";
 
 function MyMessage({ message }) {
-  // if condition in if statement is true, that means the message is not a text, but ATTACHMENT like an image, so we need to handle this differently, otherwise just render the text as implemented below.
   if (message?.attachments?.length > 0) {
     return (
       <img
